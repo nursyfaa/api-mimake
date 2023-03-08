@@ -23,7 +23,7 @@ class BarangC extends Controller
             'gambar_barang' => 'required|image|mimes:jpeg,png,jpg,gif,svg,webm',
             'qty' => 'required',
             'harga' => 'required',
-            'barcode' => 'required',
+            'barcode' => 'required'
         ]);
 
         if ($validator->fails()){
